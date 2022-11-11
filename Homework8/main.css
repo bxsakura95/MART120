@@ -1,0 +1,34 @@
+div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: blueviolet;
+	display: table;
+	margin: 0 auto;
+}
+
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color:palevioletred;
+}
+
+#specificStyle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue
+}
+
+#specificStyle2{
+    font-family: cursive;
+    color:cornflowerblue
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.myClass{
+	font-family: georgia;
+	color: purple;
+	font-weight: bolder;
+}

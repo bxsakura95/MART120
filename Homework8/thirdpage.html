@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<title>
+    Contact us!<br>
+   
+		</title>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+			<link rel="stylesheet" type="text/css" href="main.css">
+			<script>
+			function getForm() 
+			{
+				var firstName = document.getElementById("fName").value;
+				var lastName = document.getElementById("lName").value;
+				var eMail = document.getElementById("emailA").value;
+				//window.alert("Hey  " + firstName);
+				document.getElementById("message").innerHTML = "My name is " + fName.value + " " + lName.value + " and my email is " + emailA.value;
+				if(firstName == "")
+				{
+				  document.getElementById("fName").style.backgroundColor = "red";
+				  document.getElementById("fName").focus();
+				  document.getElementById("fNameRequired").innerHTML = "Your first name is required.";
+				  
+				}
+				if(lastName == "")
+				{
+				  document.getElementById("lName").style.backgroundColor = "red";
+				  document.getElementById("lName").focus();
+				  document.getElementById("lNameRequired").innerHTML = "Your last name is required.";
+				}
+				if(eMail == "")
+				{
+				  document.getElementById("emailA").style.backgroundColor = "red";
+				  document.getElementById("emailA").focus();
+				  document.getElementById("emailARequired").innerHTML = "Your email address is required.";
+				}
+			}
+			</script>
+	</head>
+
+<div><b>Contact us!</b>
+<br><br>
+<h2>
+	<link rel="stylesheet" type="text/css" href="main.css"></div></h2>
+	<span id="specificStyle">Let us know about your experience with our html!</span><br><br>
+		<span>
+
+			
+			First Name: <input type="text" id="fName"><br>
+			Last Name: <input type="text" id="lName"><br>
+			Email address: <input type="text" id="emailA"><br><br>
+			<div id="fNameRequired"></div>
+			<div id="lNameRequired"></div>
+			<div id="emailARequired"></div>
+<h4><b>Do you accept the terms and agreements? (Be a cool person?)</b><br><br></h4>
+
+			<select>
+				<option value="Yes">Yes, I'm cool as a cucumber!</option>
+				<option value="No">Nah, I'm more of a pickle...</option>
+			</select>
+			
+		</span>
+<button type='button' id='mySubmit' class='btn btn-primary' onclick='getForm();'>Submit</button>
+<br><br>
+
+<div id="message"></div>
+
+
+<a class="myClass" href="firstpage.html">Homepage</a><br>
+<a class="myClass" href="secondpage.html">Second page</a><br>
+
+
+<span id="specificStyle2">Created by Brenna</span><br><br>
+
+</html>
