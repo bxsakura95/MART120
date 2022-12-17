@@ -1,0 +1,64 @@
+div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: blueviolet;
+	display: table;
+	margin: 0 auto;
+}
+
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color:palevioletred;
+}
+
+#specificStyle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue
+}
+
+#specificStyle2{
+    font-family: cursive;
+    color:cornflowerblue
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+.myClass{
+	font-family: georgia;
+	color: purple;
+	font-weight: bolder;
+	font-size:xx-large;
+}
+
+#class1{
+	background-color:#FFE5f0;
+	text-align:center;
+	font-family: cursive;
+	font-stretch: expanded;
+	text-align: center;
+	margin: 0 auto;
+	font-size:18px;
+	border-style: dotted;
+	border-color: purple;
+	border-width:5px;
+}
+
+#class2 {
+	border-style: dotted;
+	border-color: purple;
+	border-width:5px;
+}
+
+.centerp {
+	color:black;
+	text-align:right;
+	font-family: Fantasy;
+	font-size: medium;
+
+}
+
+
